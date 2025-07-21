@@ -1,0 +1,56 @@
+{
+    "date": "2025-05-22 19:06:06.950244",
+    "debug": {
+        "baseline": 2.7664817322424584,
+        "coding_deg": 35.33806895219358,
+        "rf_pred": 2.871825134621419,
+        "temporal_deg": 0.0,
+        "upscaling_deg": 19.241736862576012
+    },
+    "features": {
+        "0.0_quantil_StdDev_MotionX_non-i": 0.0031622776601683794,
+        "1.0_quantil_FrameSize": 45600.0,
+        "Bitrate": 541.2421875,
+        "Framerate": 60.0,
+        "Resolution": 921600.0,
+        "h264": 0.0,
+        "h264_10bit": 0.0,
+        "hevc": 1.0,
+        "hevc_10bit": 0.0,
+        "iqr_Av_QPBB_non-i": 4.494609749705454,
+        "iqr_min_QP": 6.0,
+        "kurtosis_Av_Motion": 22.548941738861327,
+        "kurtosis_Av_QPBB_non-i": 0.0028506714156995017,
+        "kurtosis_FrameSize_non-i": 1.8209825383131086,
+        "mean_Av_QPBB_non_i": 37.85934736776414,
+        "predicted_mos_mode3_baseline": 2.7664817322424584,
+        "quant": 0.7423401444659635,
+        "std_FrameSize_non-i": 1172.4620693334696,
+        "std_max_QP_non-i": 2.7682432043303855,
+        "vp9": 0.0
+    },
+    "hybrid_encoding_params": {
+        "encoder": "libx265",
+        "video_bitrate": "592498",
+        "video_framerate": 60.0,
+        "video_height": 720,
+        "video_width": 1280
+    },
+    "model": "hybrid_type_2",
+    "per_second": [
+        2.3996359424929423,
+        2.658583935698141,
+        2.940224809661976,
+        2.972562511304301,
+        2.8434801247487953,
+        2.8298434831511026,
+        2.9031536491374275,
+        2.9853735882985912,
+        2.8726945656265457,
+        2.889638934767856
+    ],
+    "per_sequence": 2.819153433431939,
+    "version": "0.1.0",
+    "video_basename": "bigbuckbunny_vvc_1280x720_q32.mkv592498_1280_720_60.0_libx265",
+    "video_full_path": "/data/bigbuckbunny_vvc_1280x720_q32.mkv"
+}

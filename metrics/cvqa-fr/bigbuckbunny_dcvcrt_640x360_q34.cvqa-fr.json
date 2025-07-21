@@ -1,0 +1,6 @@
+{
+  "video": "/home/behe5421/encoded/bigbuckbunny_dcvcrt_640x360_q34.mkv",
+  "name": "bigbuckbunny_dcvcrt_640x360_q34",
+  "score": 3.211681842803955,
+  "command": "python test_FR_demo.py --method_name single-scale --output /tmp/cvqa.txt --dist /home/behe5421/encoded/bigbuckbunny_dcvcrt_640x360_q34.mkv --ref /home/behe5421/original/bigbuckbunny_original_3840x2160_q0.mkv"
+}

@@ -1,0 +1,54 @@
+{
+    "date": "2025-05-22 20:01:09.147048",
+    "debug": {
+        "baseline": 1.6907171820253915,
+        "coding_deg": 54.48089719550311,
+        "rf_pred": 1.7696446901692822,
+        "temporal_deg": 0.0,
+        "upscaling_deg": 19.241736862576012
+    },
+    "features": {
+        "0.0_quantil_StdDev_MotionX_non-i": 0.0031622776601683794,
+        "1.0_quantil_FrameSize": 6008.0,
+        "Bitrate": 125.0126953125,
+        "Framerate": 60.0,
+        "Resolution": 921600.0,
+        "h264": 0.0,
+        "h264_10bit": 0.0,
+        "hevc": 1.0,
+        "hevc_10bit": 0.0,
+        "iqr_Av_QPBB_non-i": 6.0,
+        "iqr_min_QP": 6.0,
+        "kurtosis_Av_Motion": 43.854634618533446,
+        "kurtosis_Av_QPBB_non-i": -0.035943005886804436,
+        "kurtosis_FrameSize_non-i": 20.666786778257972,
+        "mean_Av_QPBB_non_i": 45.57670230417103,
+        "predicted_mos_mode3_baseline": 1.6907171820253915,
+        "quant": 0.8936608294935496,
+        "std_FrameSize_non-i": 334.1841447790206,
+        "std_max_QP_non-i": 2.6493684161976203,
+        "vp9": 0.0
+    },
+    "hybrid_encoding_params": {
+        "encoder": "libx265",
+        "video_bitrate": "103642",
+        "video_framerate": 60.0,
+        "video_height": 720,
+        "video_width": 1280
+    },
+    "model": "hybrid_type_2",
+    "per_second": [
+        1.6511966432171787,
+        1.814141134519676,
+        1.9094072960645594,
+        1.7844112129545382,
+        1.734246490829431,
+        1.6634925650433363,
+        1.6565584445163835,
+        1.6616024888637742
+    ],
+    "per_sequence": 1.7301809360973368,
+    "version": "0.1.0",
+    "video_basename": "daydreamer_dcvcrt_1280x720_q17.mkv103642_1280_720_60.0_libx265",
+    "video_full_path": "/data/daydreamer_dcvcrt_1280x720_q17.mkv"
+}

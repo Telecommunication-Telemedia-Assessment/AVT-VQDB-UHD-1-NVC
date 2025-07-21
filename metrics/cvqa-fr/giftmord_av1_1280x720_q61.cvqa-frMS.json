@@ -1,0 +1,6 @@
+{
+  "video": "/home/behe5421/encoded/giftmord_av1_1280x720_q61.mkv",
+  "name": "giftmord_av1_1280x720_q61",
+  "score": 2.933501356739066,
+  "command": "python test_FR_demo.py --method_name multi-scale --output /tmp/cvqa.txt --dist /home/behe5421/encoded/giftmord_av1_1280x720_q61.mkv --ref /home/behe5421/original/giftmord_original_3840x2160_q0.mkv"
+}

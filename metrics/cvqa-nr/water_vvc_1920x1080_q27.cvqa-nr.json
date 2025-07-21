@@ -1,0 +1,6 @@
+{
+  "video": "/home/behe5421/encoded/water_vvc_1920x1080_q27.mkv",
+  "name": "water_vvc_1920x1080_q27",
+  "score": 4.59390115737915,
+  "command": "python test_NR_demo.py --method_name single-scale --output /tmp/cvqa.txt --dist /home/behe5421/encoded/water_vvc_1920x1080_q27.mkv"
+}

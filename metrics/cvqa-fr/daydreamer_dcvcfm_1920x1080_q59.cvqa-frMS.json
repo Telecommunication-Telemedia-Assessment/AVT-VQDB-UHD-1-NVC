@@ -1,0 +1,6 @@
+{
+  "video": "/home/behe5421/encoded/daydreamer_dcvcfm_1920x1080_q59.mkv",
+  "name": "daydreamer_dcvcfm_1920x1080_q59",
+  "score": 3.740081208368323,
+  "command": "python test_FR_demo.py --method_name multi-scale --output /tmp/cvqa.txt --dist /home/behe5421/encoded/daydreamer_dcvcfm_1920x1080_q59.mkv --ref /home/behe5421/original/daydreamer_original_3840x2160_q0.mkv"
+}

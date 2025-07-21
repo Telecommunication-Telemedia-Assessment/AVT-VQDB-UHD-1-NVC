@@ -1,0 +1,6 @@
+{
+  "video": "/home/behe5421/encoded/vegetables_dcvcfm_1280x720_q46.mkv",
+  "name": "vegetables_dcvcfm_1280x720_q46",
+  "score": 4.4370527267456055,
+  "command": "python test_NR_demo.py --method_name single-scale --output /tmp/cvqa.txt --dist /home/behe5421/encoded/vegetables_dcvcfm_1280x720_q46.mkv"
+}

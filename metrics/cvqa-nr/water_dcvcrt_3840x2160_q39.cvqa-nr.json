@@ -1,0 +1,6 @@
+{
+  "video": "/home/behe5421/encoded/water_dcvcrt_3840x2160_q39.mkv",
+  "name": "water_dcvcrt_3840x2160_q39",
+  "score": 4.391308307647705,
+  "command": "python test_NR_demo.py --method_name single-scale --output /tmp/cvqa.txt --dist /home/behe5421/encoded/water_dcvcrt_3840x2160_q39.mkv"
+}

@@ -1,0 +1,50 @@
+{
+    "date": "2025-05-22 21:48:20.682226",
+    "debug": {
+        "baseline": 1.4293088896123156,
+        "coding_deg": 60.647724090348895,
+        "rf_pred": 1.323203755190546,
+        "temporal_deg": 0.0,
+        "upscaling_deg": 19.241736862576012
+    },
+    "features": {
+        "0.0_quantil_StdDev_MotionX_non-i": 0.4093152065773059,
+        "1.0_quantil_FrameSize": 8669.0,
+        "Bitrate": 398.2255859375,
+        "Framerate": 60.0,
+        "Resolution": 921600.0,
+        "h264": 0.0,
+        "h264_10bit": 0.0,
+        "hevc": 1.0,
+        "hevc_10bit": 0.0,
+        "iqr_Av_QPBB_non-i": 2.733682589017583,
+        "iqr_min_QP": 5.0,
+        "kurtosis_Av_Motion": 5.937659145795418,
+        "kurtosis_Av_QPBB_non-i": -0.27058725403539974,
+        "kurtosis_FrameSize_non-i": 4.8801922655587076,
+        "mean_Av_QPBB_non_i": 47.05104812347395,
+        "predicted_mos_mode3_baseline": 1.4293088896123156,
+        "quant": 0.9225695710485088,
+        "std_FrameSize_non-i": 454.05694853891293,
+        "std_max_QP_non-i": 1.311120973887857,
+        "vp9": 0.0
+    },
+    "hybrid_encoding_params": {
+        "encoder": "libx265",
+        "video_bitrate": "401519",
+        "video_framerate": 60.0,
+        "video_height": 720,
+        "video_width": 1280
+    },
+    "model": "hybrid_type_2",
+    "per_second": [
+        1.3420688659488558,
+        1.3905048530334305,
+        1.3850920076980417,
+        1.374280940031808
+    ],
+    "per_sequence": 1.3762563224014308,
+    "version": "0.1.0",
+    "video_basename": "sparks15_av1_1280x720_q61.mkv401519_1280_720_60.0_libx265",
+    "video_full_path": "/data/sparks15_av1_1280x720_q61.mkv"
+}

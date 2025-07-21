@@ -1,0 +1,6 @@
+{
+  "video": "/home/behe5421/encoded/sparks15_av1_640x360_q54.mkv",
+  "name": "sparks15_av1_640x360_q54",
+  "score": 4.122821807861328,
+  "command": "python test_NR_demo.py --method_name single-scale --output /tmp/cvqa.txt --dist /home/behe5421/encoded/sparks15_av1_640x360_q54.mkv"
+}

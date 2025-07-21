@@ -1,0 +1,6 @@
+{
+  "video": "/home/behe5421/encoded/daydreamer_av1_1280x720_q61.mkv",
+  "name": "daydreamer_av1_1280x720_q61",
+  "score": 2.2747851762023075,
+  "command": "python test_FR_demo.py --method_name multi-scale --output /tmp/cvqa.txt --dist /home/behe5421/encoded/daydreamer_av1_1280x720_q61.mkv --ref /home/behe5421/original/daydreamer_original_3840x2160_q0.mkv"
+}

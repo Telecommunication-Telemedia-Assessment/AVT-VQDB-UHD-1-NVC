@@ -1,0 +1,54 @@
+{
+    "date": "2025-05-22 21:14:42.859412",
+    "debug": {
+        "baseline": 1.0571428571428572,
+        "coding_deg": 90.79635594994325,
+        "rf_pred": 1.0257549129001562,
+        "temporal_deg": 0.0,
+        "upscaling_deg": 11.497589538727595
+    },
+    "features": {
+        "0.0_quantil_StdDev_MotionX_non-i": 0.3365337013955264,
+        "1.0_quantil_FrameSize": 12287.0,
+        "Bitrate": 152.662109375,
+        "Framerate": 60.0,
+        "Resolution": 2073600.0,
+        "h264": 0.0,
+        "h264_10bit": 0.0,
+        "hevc": 1.0,
+        "hevc_10bit": 0.0,
+        "iqr_Av_QPBB_non-i": 0.0,
+        "iqr_min_QP": 0.0,
+        "kurtosis_Av_Motion": -0.44697845649629553,
+        "kurtosis_Av_QPBB_non-i": 102.01891334853086,
+        "kurtosis_FrameSize_non-i": 27.302444198547924,
+        "mean_Av_QPBB_non_i": 50.73404894829813,
+        "predicted_mos_mode3_baseline": 1.0571428571428572,
+        "quant": 0.9947852734960417,
+        "std_FrameSize_non-i": 244.3706306646605,
+        "std_max_QP_non-i": 0.6910903359746585,
+        "vp9": 0.0
+    },
+    "hybrid_encoding_params": {
+        "encoder": "libx265",
+        "video_bitrate": "151014",
+        "video_framerate": 60.0,
+        "video_height": 1080,
+        "video_width": 1920
+    },
+    "model": "hybrid_type_2",
+    "per_second": [
+        1.0559378518265152,
+        1.0382110109307183,
+        1.0395038624903,
+        1.0378003446004154,
+        1.038735716414684,
+        1.0388443922743473,
+        1.0397080455711303,
+        1.0432878339817353
+    ],
+    "per_sequence": 1.0414488850215067,
+    "version": "0.1.0",
+    "video_basename": "giftmord_dcvcrt_1920x1080_q10.mkv151014_1920_1080_60.0_libx265",
+    "video_full_path": "/data/giftmord_dcvcrt_1920x1080_q10.mkv"
+}

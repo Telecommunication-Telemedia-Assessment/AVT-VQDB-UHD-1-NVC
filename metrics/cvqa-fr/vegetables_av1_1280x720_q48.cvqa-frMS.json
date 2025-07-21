@@ -1,0 +1,6 @@
+{
+  "video": "/home/behe5421/encoded/vegetables_av1_1280x720_q48.mkv",
+  "name": "vegetables_av1_1280x720_q48",
+  "score": 4.391051091807042,
+  "command": "python test_FR_demo.py --method_name multi-scale --output /tmp/cvqa.txt --dist /home/behe5421/encoded/vegetables_av1_1280x720_q48.mkv --ref /home/behe5421/original/vegetables_original_3840x2160_q0.mkv"
+}

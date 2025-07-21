@@ -1,0 +1,6 @@
+{
+  "video": "/home/behe5421/encoded/sparks15_dcvcrt_3840x2160_q19.mkv",
+  "name": "sparks15_dcvcrt_3840x2160_q19",
+  "score": 2.6164486408233643,
+  "command": "python test_FR_demo.py --method_name single-scale --output /tmp/cvqa.txt --dist /home/behe5421/encoded/sparks15_dcvcrt_3840x2160_q19.mkv --ref /home/behe5421/original/sparks15_original_3840x2160_q0.mkv"
+}

@@ -1,0 +1,56 @@
+{
+    "date": "2025-05-22 23:01:57.458623",
+    "debug": {
+        "baseline": 2.0618812611672945,
+        "coding_deg": 33.96447319975755,
+        "rf_pred": 1.8055886192700972,
+        "temporal_deg": 0.0,
+        "upscaling_deg": 32.48044415458403
+    },
+    "features": {
+        "0.0_quantil_StdDev_MotionX_non-i": 0.0031622776601683794,
+        "1.0_quantil_FrameSize": 8019.0,
+        "Bitrate": 132.8876953125,
+        "Framerate": 60.0,
+        "Resolution": 230400.0,
+        "h264": 0.0,
+        "h264_10bit": 0.0,
+        "hevc": 1.0,
+        "hevc_10bit": 0.0,
+        "iqr_Av_QPBB_non-i": 0.0,
+        "iqr_min_QP": 7.0,
+        "kurtosis_Av_Motion": 195.7527952188037,
+        "kurtosis_Av_QPBB_non-i": 0.0,
+        "kurtosis_FrameSize_non-i": 12.157623439824258,
+        "mean_Av_QPBB_non_i": 36.96979662760594,
+        "predicted_mos_mode3_baseline": 2.0618812611672945,
+        "quant": 0.7248979730903125,
+        "std_FrameSize_non-i": 385.99657996294366,
+        "std_max_QP_non-i": 2.939589250019808,
+        "vp9": 0.0
+    },
+    "hybrid_encoding_params": {
+        "encoder": "libx265",
+        "video_bitrate": "124750",
+        "video_framerate": 60.0,
+        "video_height": 360,
+        "video_width": 640
+    },
+    "model": "hybrid_type_2",
+    "per_second": [
+        1.9337349402186959,
+        1.9337349402186959,
+        1.9337349402186959,
+        1.9337349402186959,
+        1.9337349402186959,
+        1.9582505452757855,
+        1.8418376739539024,
+        1.9099773028160896,
+        1.8574877245532844,
+        1.8467258432856402
+    ],
+    "per_sequence": 1.9337349402186959,
+    "version": "0.1.0",
+    "video_basename": "vegetables_av1_640x360_q54.mkv124750_640_360_60.0_libx265",
+    "video_full_path": "/data/vegetables_av1_640x360_q54.mkv"
+}

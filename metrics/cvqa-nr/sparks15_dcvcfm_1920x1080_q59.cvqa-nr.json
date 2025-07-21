@@ -1,0 +1,6 @@
+{
+  "video": "/home/behe5421/encoded/sparks15_dcvcfm_1920x1080_q59.mkv",
+  "name": "sparks15_dcvcfm_1920x1080_q59",
+  "score": 4.888477325439453,
+  "command": "python test_NR_demo.py --method_name single-scale --output /tmp/cvqa.txt --dist /home/behe5421/encoded/sparks15_dcvcfm_1920x1080_q59.mkv"
+}

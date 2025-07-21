@@ -1,0 +1,6 @@
+{
+  "video": "/home/behe5421/encoded/vegetables_dcvcfm_1920x1080_q37.mkv",
+  "name": "vegetables_dcvcfm_1920x1080_q37",
+  "score": 4.196354138641386,
+  "command": "python test_FR_demo.py --method_name multi-scale --output /tmp/cvqa.txt --dist /home/behe5421/encoded/vegetables_dcvcfm_1920x1080_q37.mkv --ref /home/behe5421/original/vegetables_original_3840x2160_q0.mkv"
+}

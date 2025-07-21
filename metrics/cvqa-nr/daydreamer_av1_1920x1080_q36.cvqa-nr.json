@@ -1,0 +1,6 @@
+{
+  "video": "/home/behe5421/encoded/daydreamer_av1_1920x1080_q36.mkv",
+  "name": "daydreamer_av1_1920x1080_q36",
+  "score": 4.4457173347473145,
+  "command": "python test_NR_demo.py --method_name single-scale --output /tmp/cvqa.txt --dist /home/behe5421/encoded/daydreamer_av1_1920x1080_q36.mkv"
+}
