@@ -10,7 +10,7 @@ The subjective and metric results are organized in the following way:
 - The file `subjective.csv` holds the subjective scores collected from the user study.
 - An aggregated version of all results is available in `results.json` for easier access and analysis.
 
-The corresponding video files can be downloaded from [link].
+The corresponding video files can be downloaded using the link [AVT-VQDB-UHD-1-NVC](https://avtshare01.rz.tu-ilmenau.de/avt-vqdb-uhd-1-nvc/).
 The videos are provided as HEVC lossless transcodes for the encoded and source video files.
 To reproduce the results from the paper the videos need to be upscaled to 3840x2160 using `ffmpeg` with a lanczos filter and a lossless codec (eg. ffvhuff or lossless HEVC). 
 Make sure ffmpeg is installed on your system.
