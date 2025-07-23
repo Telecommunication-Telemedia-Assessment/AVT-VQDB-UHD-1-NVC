@@ -1,6 +1,6 @@
 # A subjective and objective video quality dataset for neural and traditional video codecs
 This repository contains all the data related to the paper:
-_"A Subjective and Instrumental Assessment of Deep-Learning-based and Traditional Video Codecs for 4K/UHD-1 Video Quality Evaluation"_
+_"Evaluating Video Quality Metrics for Neural and Traditional Codecs using 4K/UHD-1 Videos"_
 
 ## Dataset
 
@@ -36,8 +36,8 @@ python prepare_videos.py --input_dir decoded  -output_dir pvs --codec h265
 Please cite the following paper if you use any part of the data or code provided in this repository.
 
 ```bibtex
-@article{herb_subjective_2025,
-    title={A Subjective and Instrumental Assessment of Deep-Learning-based and Traditional Video Codecs for 4K/UHD-1 Video Quality Evaluation},
+@article{herb_evaluating_2025,
+    title={Evaluating Video Quality Metrics for Neural and Traditional Codecs using 4K/UHD-1 Videos},
     author={Herb, Benjamin and Ramachandra Rao, Rakesh Rao and Göring, Steve and Raake, Alexander},
     publisher={to appear},
     year={2025},
