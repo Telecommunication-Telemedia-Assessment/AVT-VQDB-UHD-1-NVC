@@ -6,17 +6,23 @@ _"Evaluating Video Quality Metrics for Neural and Traditional Codecs using 4K/UH
 
 The subjective and metric results are organized in the following way:
 
-- The `/metrics` directory contains all raw outputs from the evaluated quality metrics, stored as `.json` files.
+- The `./metrics/` directory contains all raw outputs from the evaluated quality metrics, stored as `.json` files.
 - The file `subjective.csv` holds the subjective scores collected from the user study.
 - An aggregated version of all results is available in `results.json` for easier access and analysis.
 
-The corresponding video files can be downloaded using the link [AVT-VQDB-UHD-1-NVC](https://avtshare01.rz.tu-ilmenau.de/avt-vqdb-uhd-1-nvc/).
+The corresponding video files (Sources: ~13GB / PVS: ~74GB) can be downloaded using the link [AVT-VQDB-UHD-1-NVC](https://avtshare01.rz.tu-ilmenau.de/avt-vqdb-uhd-1-nvc/) or by using the included script:
+```bash
+chmod +x ./download.sh
+./download.sh
+```
+
 The videos are provided as HEVC lossless transcodes for the encoded and source video files.
-To reproduce the results from the paper the videos need to be upscaled to 3840x2160 using `ffmpeg` with a lanczos filter and a lossless codec (eg. ffvhuff or lossless HEVC). 
+To reproduce the results from the paper the videos need to be upscaled to 3840x2160 using `ffmpeg` with a lanczos filter and a lossless codec (eg. ffvhuff, ffv1 or lossless HEVC). 
 Make sure ffmpeg is installed on your system.
 
 ```bash
 ffmpeg -i INPUT.mkv -c:v ffvhuff -vf "scale=3840x2160:param0=5" -sws_flags lanczos+accurate_rnd+bitexact OUTPUT.mkv
+ffmpeg -i INPUT.mkv -c:v ffv1 -level 3 slicecrc 1 -vf "scale=3840x2160:param0=5" -sws_flags lanczos+accurate_rnd+bitexact OUTPUT.mkv
 ffmpeg -i INPUT.mkv -c:v libx265 -x265-params lossless=1 -vf "scale=3840x2160:param0=5" -sws_flags lanczos+accurate_rnd+bitexact OUTPUT.mkv
 ```
 
@@ -25,10 +31,10 @@ The included helper script `prepare_videos.py` can also be used to upscale all v
 ```bash
 python prepare_videos.py --input_dir decoded  -output_dir pvs
 ```
-To save space (at the cost of longer encoding times), use the --codec h265 option:
+To save space (at the cost of longer encoding times), use the --codec/-c ffv1 or h265 option:
 
 ```bash
-python prepare_videos.py --input_dir decoded  -output_dir pvs --codec h265
+python prepare_videos.py --input_dir decoded  -output_dir pvs --codec ffv1
 ```
 
 
