@@ -1,6 +1,7 @@
 {
-    "dover": 0.1725205304202721,
-    "dover_res_0": -0.20182915031909943,
-    "dover_res_1": 0.01652241311967373,
-    "video": "../NVC/encoded/sparks15_av1_1920x1080_q63.mkv"
+  "timestamp": "2025-09-15 17:57:48",
+  "distorted": "sparks15_av1_1920x1080_q63.mkv",
+  "technical_score": -0.18865874409675598,
+  "aesthetic_score": 0.032789330929517746,
+  "fused_score": 0.21574490589996737
 }

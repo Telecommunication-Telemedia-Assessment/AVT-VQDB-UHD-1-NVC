@@ -1,6 +1,7 @@
 {
-    "dover": 0.479174941656033,
-    "dover_res_0": -0.09177177399396896,
-    "dover_res_1": 0.07184799760580063,
-    "video": "../NVC/encoded/giftmord_av1_3840x2160_q61.mkv"
+  "timestamp": "2025-09-15 17:06:30",
+  "distorted": "giftmord_av1_3840x2160_q61.mkv",
+  "technical_score": -0.11051718890666962,
+  "aesthetic_score": 0.1711532026529312,
+  "fused_score": 0.687022354504618
 }

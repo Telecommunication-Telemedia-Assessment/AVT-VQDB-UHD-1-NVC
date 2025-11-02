@@ -1,6 +1,7 @@
 {
-    "dover": 0.4947226804889078,
-    "dover_res_0": -0.14262457191944122,
-    "dover_res_1": 0.11875870823860168,
-    "video": "../NVC/encoded/vegetables_av1_640x360_q54.mkv"
+  "timestamp": "2025-09-15 17:11:24",
+  "distorted": "vegetables_av1_640x360_q54.mkv",
+  "technical_score": -0.15108434855937958,
+  "aesthetic_score": 0.16206572949886322,
+  "fused_score": 0.5880115076809442
 }

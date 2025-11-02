@@ -1,6 +1,7 @@
 {
-    "dover": 0.6428409776689421,
-    "dover_res_0": -0.09282954037189484,
-    "dover_res_1": 0.13770344853401184,
-    "video": "../NVC/encoded/bigbuckbunny_dcvcrt_1920x1080_q10.mkv"
+  "timestamp": "2025-09-15 17:51:57",
+  "distorted": "bigbuckbunny_dcvcrt_1920x1080_q10.mkv",
+  "technical_score": -0.07615279406309128,
+  "aesthetic_score": 0.21235528588294983,
+  "fused_score": 0.8170921150790198
 }

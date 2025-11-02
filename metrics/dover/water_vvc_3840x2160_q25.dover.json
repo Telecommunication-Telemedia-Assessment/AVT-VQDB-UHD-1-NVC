@@ -1,6 +1,7 @@
 {
-    "dover": 0.3472288007244048,
-    "dover_res_0": -0.09103943407535553,
-    "dover_res_1": 0.018185507506132126,
-    "video": "../NVC/encoded/water_vvc_3840x2160_q25.mkv"
+  "timestamp": "2025-09-15 18:24:59",
+  "distorted": "water_vvc_3840x2160_q25.mkv",
+  "technical_score": -0.08520172536373138,
+  "aesthetic_score": 0.12964661419391632,
+  "fused_score": 0.6382663601746589
 }

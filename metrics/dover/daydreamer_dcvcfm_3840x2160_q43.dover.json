@@ -1,6 +1,7 @@
 {
-    "dover": 0.39112945671255706,
-    "dover_res_0": -0.08250956237316132,
-    "dover_res_1": 0.02960488758981228,
-    "video": "../NVC/encoded/daydreamer_dcvcfm_3840x2160_q43.mkv"
+  "timestamp": "2025-09-15 18:18:51",
+  "distorted": "daydreamer_dcvcfm_3840x2160_q43.mkv",
+  "technical_score": -0.0857149288058281,
+  "aesthetic_score": 0.06642086803913116,
+  "fused_score": 0.4777378078333092
 }
