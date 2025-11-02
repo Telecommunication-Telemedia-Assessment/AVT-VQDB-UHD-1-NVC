@@ -17,27 +17,18 @@ def upscale_video(input_file, output_file, codec, overwrite, ffmpeg_cmd):
     sws_flags = 'lanczos+accurate_rnd+bitexact'
     overwrite_flag = ['-y'] if overwrite else []
 
+    cmd = [ffmpeg_cmd, *overwrite_flag, '-i', str(input_file)]
+
     if codec.lower() == 'ffvhuff':
-        cmd = [
-            ffmpeg_cmd, *overwrite_flag,
-            '-i', str(input_file),
-            '-c:v', 'ffvhuff',
-            '-vf', scale_filter,
-            '-sws_flags', sws_flags,
-            str(output_file)
-        ]
+        cmd.extend(['-c:v', 'ffvhuff'])
+    elif codec.lower() == 'ffv1':
+        cmd.extend(['-c:v', 'ffv1', '-level', '3', '-slicecrc', '1'])
     elif codec.lower() == 'h265':
-        cmd = [
-            ffmpeg_cmd, *overwrite_flag,
-            '-i', str(input_file),
-            '-c:v', 'libx265',
-            '-x265-params', 'lossless=1',
-            '-vf', scale_filter,
-            '-sws_flags', sws_flags,
-            str(output_file)
-        ]
+        cmd.extend(['-c:v', 'libx265', '-x265-params', 'lossless=1'])
     else:
-        raise ValueError("Unsupported codec. Use 'ffvhuff' or 'x265'.")
+        raise ValueError("Unsupported codec. Use 'ffvhuff', 'ffv1' or 'h265'.")
+
+    cmd.extend(['-vf', scale_filter, '-sws_flags', sws_flags, str(output_file)])
 
     print(f"Running: {' '.join(cmd)}")
     try:
@@ -50,7 +41,7 @@ def main():
     parser.add_argument('--input_dir', '-i', type=Path, required=True, help='Input directory containing MKV files.')
     parser.add_argument('--output_dir', '-o', type=Path, required=True, help='Output directory for upscaled MKV files.')
     parser.add_argument('--overwrite', action='store_true', default=False, help='Overwrite output files if they already exist (default: False).')
-    parser.add_argument('--codec', choices=['ffvhuff', 'h265'], default='ffvhuff', help='Lossless codec to use for encoding (default: ffvhuff).')
+    parser.add_argument('--codec', '-c', choices=['ffvhuff', 'ffv1', 'h265'], default='ffvhuff', help='Lossless codec to use for encoding (default: ffvhuff).')
 
     args = parser.parse_args()
 
