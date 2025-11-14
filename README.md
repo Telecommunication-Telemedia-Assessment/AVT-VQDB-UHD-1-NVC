@@ -2,6 +2,8 @@
 This repository contains all the data related to the paper:
 _"Evaluating Video Quality Metrics for Neural and Traditional Codecs using 4K/UHD-1 Videos"_
 
+[[Dataset]](https://avtshare01.rz.tu-ilmenau.de/avt-vqdb-uhd-1-nvc/) [[arXiv Preprint]](https://doi.org/10.48550/arXiv.2511.00969) 
+
 ## Dataset
 
 The subjective and metric results are organized in the following way:
@@ -42,11 +44,12 @@ python prepare_videos.py --input_dir decoded  -output_dir pvs --codec ffv1
 Please cite the following paper if you use any part of the data or code provided in this repository.
 
 ```bibtex
-@article{herb_evaluating_2025,
-    title={Evaluating Video Quality Metrics for Neural and Traditional Codecs using 4K/UHD-1 Videos},
-    author={Herb, Benjamin and Ramachandra Rao, Rakesh Rao and Göring, Steve and Raake, Alexander},
-    publisher={to appear},
-    year={2025},
-    journal={to appear}
+@inproceedings{herb_evaluating_2025,
+    title     = {Evaluating Video Quality Metrics for Neural and Traditional Codecs using 4K/UHD-1 Videos},
+    author    = {Herb, Benjamin and Ramachandra Rao, Rakesh Rao and Göring, Steve and Raake, Alexander},
+    booktitle = {Picture Coding Symposium (PCS)}, 
+    year      = {2025},
+    address   = {Aachen, Germany},
+    note      = {To appear}
 }
 ```
